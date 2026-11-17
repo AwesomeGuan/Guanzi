@@ -62,26 +62,17 @@ See the chapter guides below for individual commands and how to resume a run.
 
 ## Workflow layout
 
-```text
-Guanzi/
-├── Step1_Custom_Mode/              # Search protein structures from user genomes
-├── Step1_Replication_Mode/         # Search AFDB50 and map hits to GTDB r220
-├── Step2_Functional_Filter/        # Annotate and filter protein candidates
-├── Step3_Assembly_Analysis/        # Reconstruct candidate defense systems
-├── Step4_Quality_Control/          # Check gene proximity and structural similarity
-├── Step5_Information_Integration/  # Resolve component coordinates and order
-├── data/                           # Query metadata, system rules, and filter terms
-├── input/genomes/                  # Default location for user genome FASTA files
-├── setup_environments.md           # Software and environment setup
-└── setup_resources.md              # Model and reference data setup
-```
-
-Chapter guides: [Step 1 Custom](Step1_Custom_Mode/README.md) ·
-[Step 1 Replication](Step1_Replication_Mode/README.md) ·
-[Step 2](Step2_Functional_Filter/README.md) ·
-[Step 3](Step3_Assembly_Analysis/README.md) ·
-[Step 4](Step4_Quality_Control/README.md) ·
-[Step 5](Step5_Information_Integration/README.md).
+`Guanzi/`\
+`├──` [<ins>Step1_Custom_Mode/</ins>](Step1_Custom_Mode/README.md) — Search protein structures from user genomes\
+`├──` [<ins>Step1_Replication_Mode/</ins>](Step1_Replication_Mode/README.md) — Search AFDB50 and map hits to GTDB r220\
+`├──` [<ins>Step2_Functional_Filter/</ins>](Step2_Functional_Filter/README.md) — Annotate and filter protein candidates\
+`├──` [<ins>Step3_Assembly_Analysis/</ins>](Step3_Assembly_Analysis/README.md) — Reconstruct candidate defense systems\
+`├──` [<ins>Step4_Quality_Control/</ins>](Step4_Quality_Control/README.md) — Check gene proximity and structural similarity\
+`├──` [<ins>Step5_Information_Integration/</ins>](Step5_Information_Integration/README.md) — Resolve component coordinates and order\
+`├──` `data/` — Query metadata, system rules, and filter terms\
+`├──` [input/genomes/](input/genomes/README.md) — Default location for user genome FASTA files\
+`├──` [setup_environments.md](setup_environments.md) — Software and environment setup\
+`└──` [setup_resources.md](setup_resources.md) — Model and reference data setup
 
 ## Outputs
 
