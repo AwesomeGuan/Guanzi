@@ -1,0 +1,67 @@
+# Large data files — too big for GitHub
+*.pdb
+*.db*
+*.pt
+*.pth
+*.pkl
+*.npy
+*.dmnd
+data/gtdb/diamond_db/
+data/gtdb/downloads/
+data/gtdb/gtdb_genomes_reps_r220/
+data/gtdb/protein_faa_reps/
+data/gtdb/defensefinder_results/
+data/gtdb/ar53_taxonomy_r220.tsv
+data/gtdb/bac120_metadata_r220.tsv
+data/query_data/query_diamond_db/
+data/query_data/query_pdb/
+data/eggnog_5.0.2/
+
+# Compressed genomic files
+*.gz
+*.zip
+*.tar
+*.tar.gz
+/input/genomes/*
+!/input/genomes/README.md
+
+# Work directories
+workdir/
+output/
+output_wetlab/
+tmp/
+foldseek/
+pdb/
+prokka_out/
+esmfold_v1/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.tmp_*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with local paths
+config/config.local.yaml
+
+# Internal research materials (not part of the public tool)
+docs/
+Step6_TA_Specific_Analysis/
+Step7_Figure_Production/
+
+# Runtime logs and completion markers
+*.log
+.done/

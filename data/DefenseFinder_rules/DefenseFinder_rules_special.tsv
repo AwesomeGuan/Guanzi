@@ -1,0 +1,3 @@
+System	Subsystem	Min_mandatory	Minimum_genes	Mandatory	Accessory	Forbidden	Neutral
+AbiE	AbiE	2	2	AbiEii__AbiEi_*, AbiEii__AbiEii
+RM	RM_Type_II	2	2	RM_Type_II__Type_II_MTase*, RM_Type_II__Type_II_REase*
